@@ -1,0 +1,193 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+
+.jgood_archives_option_group{
+    background-color: #f1f1f1;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.jgood_archives_option_group input, .jgood_archives_option_group select{
+    display: block;
+    margin-top: 10px;
+}
+
+.jgood_archives_option_group .jgood_archives_option_group_title{
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.jgood_archives_option_group .jgood_archives_option_add{
+    margin: 10px 2px;
+}
+
+.jgood_archives_option_group .jgood_archives_option_remove{
+    position: absolute;
+    margin-left: 27.2em;
+}
+
+.jgood-input{
+    width: 25em;
+}
+
+#archive-options td{
+	width: 93%;
+}
+#archive-options th{
+    padding-left: 20px;
+}
+#archive-options tr.jgood-sub-heading{
+	border-bottom: 1px solid #c2c2c2;
+}
+#archive-options tr.jgood-sub-heading th{
+	width: 100%;
+	font-size: 20px;
+	font-weight: 400;
+    padding-left: 0px;
+}
+#archive-options .jgood-options-switch-text, .jgood-options{
+    float: left;
+}
+.jgood-options-switch-text{
+    padding-top: 2.5px;
+    margin-left: 11px;
+    color: #666;
+}
+
+.jgood_archives_rule_group .jgood_archives_option_rule_title{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    max-width: 500px;
+    float: left;
+}
+.jgood_archives_rule_group .jgood_archives_rule_text, .jgood_archives_rule_group .jgood_archives_option_rule_sub_title_a{
+    width: 400px;
+    clear: both;
+}
+
+.jgood_archives_rule_group .jgood_archives_rule_select{
+    margin-top: -3px;
+    height: 27px;
+}
+
+.jgood_archives_rule_group .jgood_archives_option_rule_sub_title_a, .jgood_archives_rule_group .jgood_archives_option_rule_sub_title_b{
+    float: left;
+    padding-left: 5px;
+}
+
+.jgood_archives_rule_group .jgood_archives_option_rule_content{
+    clear: both;
+}
+.jgood_archives_rule_group .jgood_archives_rule_add{
+    margin-left: 25px;
+    float: left;
+}
+
+/*Switch style*/
+.jgood-options {
+    position: relative; width: 50px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+input[type=checkbox].jgood-options-switch {
+    display: none;
+}
+.jgood-options-switch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #666; border-radius: 30px;
+}
+.jgood-options-switch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.2s ease-in 0s; -webkit-transition: margin 0.2s ease-in 0s;
+    -o-transition: margin 0.2s ease-in 0s; transition: margin 0.2s ease-in 0s;
+}
+.jgood-options-switch-inner:before, .jgood-options-switch-inner:after {
+    display: block; float: left; width: 50%; height: 20px; padding: 0; line-height: 20px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px rgba(0,0,0,0.08) inset;
+}
+.jgood-options-switch-inner:before {
+    content: "";
+    padding-left: 10px;
+    background-color: #88E371;
+    border-radius: 20px 0 0 20px;
+}
+.jgood-options-switch-inner:after {
+    content: "";
+    padding-right: 10px;
+    background-color: #CCCCCC;
+    text-align: right;
+    border-radius: 0 20px 20px 0;
+}
+.jgood-options-switch-switch {
+    display: block; width: 20px; margin: 0px;
+    background: #f1f1f1;
+    border: 2px solid #666; border-radius: 30px;
+    position: absolute; top: 0; bottom: 0; right: 26px;
+    -moz-transition: all 0.2s ease-in 0s; -webkit-transition: all 0.2s ease-in 0s;
+    -o-transition: all 0.2s ease-in 0s; transition: all 0.2s ease-in 0s; 
+}
+.jgood-options-switch:checked + .jgood-options-switch-label .jgood-options-switch-inner {
+    margin-left: 0;
+}
+.jgood-options-switch:checked + .jgood-options-switch-label .jgood-options-switch-switch {
+    right: 0px; 
+}
+
+
+
+/*Widget*/
+.jgood_archives_widget_item{
+    margin-bottom: 25px;
+}
+.jgood_archives_widget_item .jgood_widget_option_value, .jgood_archives_widget_item .jgood_widget_button_select{
+    display: none;
+}
+.jgood_archives_widget_item .active{
+    display: inline-block;
+}
+.jgood_archives_widget_item .jgood_widget_option_type{
+    max-width: 100px;
+}
+.jgood_archives_widget_item .jgood_widget_option_value{
+    max-width: 200px;
+}
+.jgood_archives_widget_item .jgood_widget_button{
+    float: right;
+}
+
+.jgood_archives_add_button{
+    background-color: #5bd846 !important;
+    border-color: #3cc321 !important;
+    -webkit-box-shadow: inset 0 1px 0 #7ee965,0 1px 0 rgba(0,0,0,.15) !important;
+    box-shadow: inset 0 1px 0 #7ee965,0 1px 0 rgba(0,0,0,.15) !important;
+}
+.jgood_archives_add_button:hover,
+.jgood_archives_add_button:active{
+    -webkit-box-shadow: inset 0 1px 0 #7ee965,0 1px 0 rgba(0,0,0,.15) !important;
+    box-shadow: inset 0 1px 0 #7ee965,0 1px 0 rgba(0,0,0,.15) !important;
+    background-color: #44d028 !important;
+    border-color: #3cc321 !important;
+}
+
+.jgood_archives_remove_button{
+    line-height: 25px !important;
+    background-color: #d85c46 !important;
+    border-color: #c33921 !important;
+    -webkit-box-shadow: inset 0 1px 0 #e97965,0 1px 0 rgba(0,0,0,.15) !important;
+    box-shadow: inset 0 1px 0 #e97965,0 1px 0 rgba(0,0,0,.15) !important;
+}
+.jgood_archives_remove_button:hover,
+.jgood_archives_remove_button:active{
+    -webkit-box-shadow: inset 0 1px 0 #e97965,0 1px 0 rgba(0,0,0,.15) !important;
+    box-shadow: inset 0 1px 0 #e97965,0 1px 0 rgba(0,0,0,.15) !important;
+    background-color: #d04128 !important;
+    border-color: #c33921 !important;
+}
